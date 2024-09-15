@@ -20,6 +20,14 @@ public class Date {
         System.out.println("增加 " + secondsToAdd + " 秒后的时间: " + futureTime);
 
 
+        String a = "1234";
+        System.out.println(a.charAt(1));//第二位的字符是什么
 
+        //查看char的int值
+        Character i = 'a';
+        int b = i;
+        System.out.println(b);
+
+        System.out.println("ab".matches("[abc]"));
     }
 }
