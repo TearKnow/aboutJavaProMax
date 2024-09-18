@@ -1,4 +1,5 @@
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collection;
 import java.util.HashSet;
 
@@ -10,6 +11,7 @@ public class CollectionDemo {
         list.add("java");
         list.add("java");
         list.add("java");
+        //list.clear();
         System.out.println(list);
 
         //HashSet: 无序 不重复
@@ -22,6 +24,17 @@ public class CollectionDemo {
         list1.add("java");
         System.out.println(list1);
 
+        System.out.println(list.size());
+        System.out.println(list.contains("java"));
+        System.out.println(list.contains("Java"));
 
+        //转成数组
+        Object[] arrs = list.toArray();
+        System.out.println(Arrays.toString(arrs));
+
+        //合并
+        //c1.addAll(c2);
+
+        
     }
 }
